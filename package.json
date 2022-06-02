@@ -1,0 +1,19 @@
+{
+  "name": "ach_payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server_2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "authorizenet": "^1.0.8",
+    "chai": "^4.3.6",
+    "express": "^4.17.2",
+    "node-paysafe": "^1.11.0",
+    "request": "^2.88.2"
+  }
+}
