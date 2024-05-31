@@ -3,10 +3,10 @@ var request = require('request');
 const app = express();
 
 let baseUrl = "https://api.test.paysafe.com";
-let accountID = 1002347140;
+let accountID = 6969696969;
 
-let username = "zeeshan";
-let key = "B-qa2-0-6203a64c-0-302c02143efca12df6805555014b68a7b0de56223cd6ab98021401fde99f15231eee0a3bac7a441181a9292e335b"
+let username = "";
+let key = ""
 
 app.use('/cardPurchase',(req,res)=>{
 
