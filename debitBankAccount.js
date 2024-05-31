@@ -4,9 +4,7 @@ var ApiContracts = require('authorizenet').APIContracts;
 var ApiControllers = require('authorizenet').APIControllers;
 var utils = require('./utils.js');
 var constants = require('./constants.js');
-//93W3gsTw
-//7w2S7u94LkMeKU5P
-//7fBvR8m5h93xHL7F
+
 function debitBankAccount() {
 	var merchantAuthenticationType = new ApiContracts.MerchantAuthenticationType();
 	merchantAuthenticationType.setName(constants.apiLoginKey);
